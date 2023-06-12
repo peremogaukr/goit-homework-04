@@ -175,9 +175,10 @@ ul {
     margin-bottom: 8px;
 }
 
-.svg-teg {
-    width: 64;
-    height: 64;
+.ul-four {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);;
 }
 
 .section-one-button {
@@ -364,6 +365,37 @@ ul {
     gap: 24px;
 }
 
+.ul-class-two {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.li-insta {
+    width: 40px;
+    height: 40px;
+}
+
+.insta-a {
+    width: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.svg-teg-two {
+    fill: #f4f4fd;
+}
+
+.insta-a:hover {
+    background-color: #404BBF;
+}
+
+.insta-a:focus{
+    background-color: #404bbf;
+}
+
 .ul-content {
     width: calc((100% - 72px) / 4);
 }
@@ -384,6 +416,8 @@ ul {
 .members-container {
     padding: 32px 16px;
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .section-portfolio {
