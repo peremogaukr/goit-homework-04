@@ -85,15 +85,11 @@ ul {
 }
 
 .app-class:hover {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .app-class:focus {
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 .header-studio {
@@ -572,6 +568,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-a:hover {
@@ -627,6 +624,7 @@ ul {
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 
 .button-window:hover {
@@ -642,8 +640,18 @@ ul {
 .svg-window {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.svg-window:hover {
+    fill: #FFFFFF;
+}
 
+.svg-window:focus {
+    fill: #FFFFFF;
+}
 
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 
 
 
