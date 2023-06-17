@@ -447,7 +447,7 @@ ul {
 }
 
 .current::after {
-
+    content: "";
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -631,22 +631,17 @@ ul {
 .button-window:hover {
     background-color: #404bbf;
     border: none;
+    fill: #FFFFFF;
 }
 
 .button-window:focus {
     background-color: #404bbf;
     border: none;
+    fill: #FFFFFF;
 }
 
 .svg-window {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.svg-window:hover {
-    fill: #FFFFFF;
-}
-
-.svg-window:focus {
-    fill: #FFFFFF;
 }
 
 .is-hidden {
