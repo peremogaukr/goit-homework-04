@@ -679,3 +679,8 @@ ul {
 .images-p:focus.text {
     transform: translateY(0%);
 }
+
+.link:hover.text,
+.link:focus.text {
+    transform: translateY(0%);
+}
