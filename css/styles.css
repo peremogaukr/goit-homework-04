@@ -675,7 +675,7 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images-p:hover .text,
-.images-p:focus .text {
+.app-class:hover .images-p,
+.app-class:focus .images-p {
     transform: translateY(0%);
 }
