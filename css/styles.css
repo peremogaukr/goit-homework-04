@@ -88,22 +88,12 @@ ul {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
-}
-
-.app-class:hover.text {
-    transform: translateY(0%);
 }
 
 .app-class:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
-}
-
-.app-class:focus.text {
-    transform: translateY(0%);
 }
 
 .header-studio {
@@ -685,10 +675,7 @@ ul {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.images-p:hover {
-    transform: translateY(0%);
-}
-
-.images-p:focus {
+.images-p:hover.text,
+.images-p:focus.text {
     transform: translateY(0%);
 }
